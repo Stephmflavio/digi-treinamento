@@ -6,3 +6,9 @@ Objetivo:
 - Resolver Bugs baseado nos materiais do Gustavo Guanabara
 - Melhorar o olhar clínico para achar o problema dentro de um cógido existente
 - Melhorar o desenvolvimento de código limpo
+
+# Códigos não alterados:
+- LAB18
+- LAB24
+- LAB25
+- LAB28
