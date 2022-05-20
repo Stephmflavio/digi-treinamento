@@ -1,0 +1,36 @@
+<!-- 
+Stephanie Flávio - 19/05/2022 - LAB4
+
+TREINAMENTO 4
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados com JS</title>
+    <style>
+        button{
+             font: 12pt Arial;
+             padding: 30px; 
+            }
+        body { font-size: 12pt;  }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Dados</h1>
+    <button onclick="inicial()">Clique para começar</button>
+    <section id="resultado">
+        <p>Aqui vai aparecer o resultado... </p>
+    </section>
+
+    <script>
+        function inicial() {
+            let nome = prompt('Qual é o seu nome?')
+            const res = document.getElementById('resultado')
+            res.innerHTML = `<p>Olá, <strong>${nome}</strong>! É um grande prazer te conhecer! 🖖;`
+                console.log(res)
+            }
+    </script>
+</body>
+</html> -->
