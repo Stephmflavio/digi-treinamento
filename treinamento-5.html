@@ -1,0 +1,45 @@
+<!-- 
+Stephanie Flávio - 19/05/2022 - LAB5
+
+TREINAMENTO 5
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+             font: 12pt Arial;
+             padding: 30px; 
+            }
+        body { font-size: 12pt;  }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com números</h1>
+    <button onclick="calculaNumero()">Clique para calcular</button>
+    <section id="resultado">
+        <p>Aqui vai aparecer o resultado... </p>
+    </section>
+
+    <script>
+        function calculaNumero() {
+            let primeiroNumero = Number(prompt('Digite um número:'))
+            let segundoNumero = primeiroNumero * 2
+            let terceiroNumero = primeiroNumero / 2 
+
+            const res = document.getElementById('resultado')
+            res.innerHTML = `<p>O dobro de <strong>${primeiroNumero}</strong> é ${segundoNumero} e a metade é ${terceiroNumero}`
+            
+            if (isNaN(primeiroNumero)) {
+                alert(`Não é um número válido`)
+                res.innerHTML = 'Aqui vai aparecer o resultado...'
+            }
+        }
+            
+    </script>
+</body>
+</html> -->
