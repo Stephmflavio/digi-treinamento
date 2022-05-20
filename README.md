@@ -9,7 +9,4 @@ Objetivo:
 
 # Códigos não alterados:
 - LAB18
-- LAB24
 - LAB25
-- LAB27
-- LAB28
